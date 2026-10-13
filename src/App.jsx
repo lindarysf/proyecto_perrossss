@@ -1,14 +1,17 @@
+import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/Services';
 import ProductList from './components/ProductList';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800">
+    <div className="min-h-screen bg-white font-sans text-gray-900">
       <Navbar />
-      <main className="flex-grow">
+      <main>
         <Hero />
+        <Services />
         <ProductList />
       </main>
       <Footer />
